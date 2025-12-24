@@ -37,8 +37,17 @@ User -> Streamlit UI -> Agent (OpenAI GPT) -> Database (SQLite)
 ## Running with Docker
 
 ### Prerequisites
-- Docker Desktop installed
+- Docker Desktop installed and running
 - OpenAI API key
+
+### Setup
+
+1. Download all files from this GitHub repository
+2. Open CMD/Terminal and navigate to the project folder:
+```bash
+   cd path\to\pharmacy-ai-agent
+```
+3. Make sure Docker Desktop is running
 
 ### Build
 ```bash
@@ -70,5 +79,6 @@ Login with these IDs:
 - Prescription validation for controlled medications
 - Medical disclaimers on dosage information
 - Redirect to healthcare professionals when appropriate
+
 
 
